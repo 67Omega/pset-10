@@ -1,12 +1,15 @@
 package src.application;
 
 import com.google.gson.Gson;
-
+import java.io.*;
 import javafx.application.Application;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
-
+import java.util.ArrayList;
+import com.google.gson.JsonIOException;
+import com.google.gson.JsonSyntaxException; 
+import com.google.gson.stream.JsonReader;
 
 public class dictionary extends Application {
 	@Override
